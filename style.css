@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: sans-serif;
+	background-color: #f2f2f2;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: auto;
+	list-style-type: none;
+}
+
+.navbar h1 {
+	margin: 5px 5px;
+	padding: 0;
+}
+
+.content {
+	margin-top: 15px;
+}
+
+.jumbotron {
+	border: 1px solid #D7DADD;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	padding-left: 1px;
+	padding-bottom: 4px;
+	background-color: #ffffff;
+}
+
+.section {
+	margin: 0;
+	padding: 0;
+}
+
+.sections label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sections .judul {
+	font-weight: bold;
+	font-size: 25px;
+	overflow: scroll;
+	width: 70%;
+	height: auto;
+	word-wrap: break-word;
+	margin-left: 28px;
+}
+
+.sections .description {
+	margin-top: 10px;
+	margin-left: -5px;
+	width: 70%;
+	height: auto;
+	word-wrap: break-word;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.sections p {
+	margin-left: 20px;
+}
+
+.delete {
+	float: right;
+	padding: 10px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.clear {
+	clear: right;
+}
+
+.checked {
+	background-color: #89c9ee;
+}
+
+.additem {
+	padding: 8px;
+	margin-top: 5px;
+}
+
+.additem h5 {
+	font-size: 20px;
+	display: inline;
+	margin: 4px 4px;
+	padding: 0;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+	top: 0;
+	width: 40px;
+	height: 40px;
+}
